@@ -1,0 +1,45 @@
+.navbar {
+  background-color: aqua;
+  border-radius: 24px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 11px 4px;
+  font-size: x-large;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+}
+.search {
+  float: right;
+  margin: 13px 27px;
+}
+.navbar li a:hover {
+  color: rgb(217, 185, 39);
+}
+
+.socials {
+    overflow: auto;
+    background-color: rgba(135, 131, 100, 0.518);
+    width: 1300px;
+}
+.socials{
+    float: left;
+}
+.socials li {
+    margin: 6px 500px;
+    list-style: none;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: black;
+}
+.socials li a:hover{
+ color: rgb(100, 87, 187);
+}
